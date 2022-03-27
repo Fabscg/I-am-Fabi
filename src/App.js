@@ -1,23 +1,46 @@
-import logo from './logo.svg';
+import Nav from './components/Nav'
+import React, { useState } from  'react'
 import './App.css';
+import './index.css'
+import Home from './components/Home'
+import About from './components/About'
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+
+
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  function RenderPage({ currentPage }) {
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
+
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+  
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+  
+    return null;
+  }
+
+  //Method to check value of 'currentPage => return value of currentPage, corresponding to compent to render 
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* Passing the currentPage from state and the function to update it */}
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <RenderPage currentPage={currentPage} />
+      <Footer></Footer>
     </div>
   );
 }
