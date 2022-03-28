@@ -4,7 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 body,h1,h2,h3,h4,h5,h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 body, html {
@@ -25,6 +25,18 @@ body, html {
 }
 .w3-white{
   color:white;
+}
+.w3-display-left {
+position:absolute;
+margin-top: 400px;
+}
+
+.slogan{
+  display:block;
+  font-family: 'Syne Mono', monospace;
+  background-color: black;
+  opacity:0.7;
+  width:100%;
 }
 
 
