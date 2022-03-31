@@ -28,25 +28,25 @@ body, html {
 }
 .w3-display-left {
 position:absolute;
-margin-top: 400px;
+margin-top: 350px;
 }
 
 .slogan{
   display:block;
   font-family: 'Syne Mono', monospace;
-  background-color: black;
   opacity:0.7;
   width:100%;
+  color: white;
+    text-shadow: 10px 10px black;
+    font-weight: bolder;
 }
 
 
-.w3-bar .w3-button {
-  padding: 16px;
+.w3-bar .w3-button, a {
+  padding: 20px 20px 20px;
   color:white;
 }
 .w3-card, .w3-card-2 {
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   background-image: url("./assets/cover/laptop.jpg");
       background-size: cover;        background-position: center;
@@ -55,8 +55,50 @@ margin-top: 400px;
       
 }
 
+img{
+  box-shadow: 0 0 15px 15px;
+  color:black;
+}
+img:hover{
+  opacity: 0.5;
+  transition: opacity 0.3s linear; /* vendorless fallback */
+  -o-transition: opacity 0.3s linear; /* opera */
+  -ms-transition: opacity 0.3s linear; /* IE 10 */
+  -moz-transition: opacity 0.3s linear; /* Firefox */
+  -webkit-transition: opacity 0.3s linear; /*safari and chrome */
+}
+
+.title-icon{
+  display:flex;
+  justify-content: space-between;
+  padding:20px 0 10px;
+}
+
+.github:hover{
+  color:rgb(190, 190, 190);
+}
+
+.description, .title-icon{
+  color:white;
+}
+
+
+.images-project{
+  background-color: grey;
+}
+
+.w3-content{
+  margin-bottom:150px;
+  font-size: 17px;
+  margin: 20px auto 20px;
+    padding-top: 50px;
+}
+
+
+
 footer{
-  position:absolute;
+ background:transparent;
+  position:fixed;
   left:0;
   bottom:0;
   right:0;
@@ -65,7 +107,8 @@ footer{
 
 .icon{
   color:white;
-  padding:0 20px 20px 0;
+  padding:0 10px 5px 20px 0;
+  margin-top: 10px;
 }
 .icon:hover{
   color: rgb(174, 176, 176);

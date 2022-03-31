@@ -10,16 +10,16 @@ function Nav({ currentPage, handlePageChange }) {
                     <a href="#home" className="title w3-bar-item w3-button w3-wide"><i class="fa-solid fa-laptop-code"></i> I am Fabi</a>
 
                     <div className="w3-right w3-hide-small">
-                        <a href="#home" className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                        <a href="#home" className={currentPage === 'Home' ? 'w3-bar-item' :'w3-button'}
 
                             onClick={() => handlePageChange('Home')}>HOME</a>
-                        <a href="#about" className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                        <a href="#about" className={currentPage === 'About' ? 'w3-bar-item' : 'w3-button'}
 
                             onClick={() => handlePageChange('About')}><i className="fa fa-user"></i>ABOUT</a>
-                        <a href="#portfolio" className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                        <a href="#portfolio" className={currentPage === 'Portfolio' ? 'w3-bar-item' : 'w3-button'}
 
                             onClick={() => handlePageChange('Portfolio')}><i className="fa fa-th"></i> PORTFOLIO</a>
-                        <a href="#contact" className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                        <a href="#contact" className={currentPage === 'Contact' ? 'w3-bar-item' : 'w3-button'}
 
                             onClick={() => handlePageChange('Contact')}><i className="fa fa-envelope"></i> CONTACT</a>
                     </div>
