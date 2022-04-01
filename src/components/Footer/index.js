@@ -18,7 +18,7 @@ function Footer() {
                 </div>
 
 
-                <p className="copyight pb-5">Copyright by <i className="icon-terminal fa-solid fa-terminal"></i> Fabiola C. Gamboa {currentYear}</p>
+                <p className="copyight">Copyright by <i className="icon-terminal fa-solid fa-terminal"></i> Fabiola C. Gamboa {currentYear}</p>
             </footer>
         </div>
 

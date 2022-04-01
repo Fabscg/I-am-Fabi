@@ -18,7 +18,7 @@ function Portfolio() {
                 {
                     projects.map((projects) => (
 
-                        <div className="w3-row col-lg-4 col-md-3 col-sm-6">
+                        <div className=" col-lg-4 col-md-3 col-sm-6">
                             <div >
                                 <div className="title-icon">
                                     <div >
