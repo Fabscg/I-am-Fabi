@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState();
 
   function RenderPage({ currentPage }) {
     if (currentPage === 'Home') {

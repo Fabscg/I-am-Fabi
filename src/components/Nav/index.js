@@ -12,7 +12,7 @@ function Nav({ currentPage, handlePageChange }) {
                     <div className="w3-right w3-hide-small">
                         <a href="#home" className={currentPage === 'Home' ? 'w3-bar-item' :'w3-button'}
 
-                            onClick={() => handlePageChange('Home')}>HOME</a>
+                            onClick={() => handlePageChange('About')}>HOME</a>
                         <a href="#about" className={currentPage === 'About' ? 'w3-bar-item' : 'w3-button'}
 
                             onClick={() => handlePageChange('About')}><i className="fa fa-user"></i>ABOUT</a>
@@ -34,11 +34,11 @@ function Nav({ currentPage, handlePageChange }) {
 
             <nav className="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style={{ display: "none" }} id="mySidebar">
                 <a href="project" onClick="w3_close()" className="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-                <a href="#home" onclick="w3_close()" className="w3-bar-item w3-button">HOME</a>
+                <a href="#home" onClick="w3_close()" className="w3-bar-item w3-button">HOME</a>
 
-                <a href="#about" onclick="w3_close()" className="w3-bar-item w3-button">ABOUT</a>
-                <a href="#portfolio" onclick="w3_close()" className="w3-bar-item w3-button">PORTFOLIO</a>
-                <a href="#contact" onclick="w3_close()" className="w3-bar-item w3-button">CONTACT</a>
+                <a href="#about" onClick="w3_close()" className="w3-bar-item w3-button">ABOUT</a>
+                <a href="#portfolio" onClick="w3_close()" className="w3-bar-item w3-button">PORTFOLIO</a>
+                <a href="#contact" onClick="w3_close()" className="w3-bar-item w3-button">CONTACT</a>
             </nav>
 
         </div>
