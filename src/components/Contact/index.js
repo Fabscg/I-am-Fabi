@@ -23,12 +23,24 @@ function Contact() {
                     </div>
                 </div>
 
+                <div id="content">
+                    <div id="slider">
+                        <img src="" alt="Web Developer" data-url="#1" />
+                        <img src="" alt="Graphic Design" data-url="#2" />
+                        <img src="" alt="Creative Design" data-url="#3" />
+                        <img src="" alt="Web Design" data-url="#4" />
+
+
+                    </div>
+                </div>
+
                 <div id="contact" class="section db">
                     <div class="container">
                         <div class="section-title text-center">
                             <h3>Contact</h3>
                             <p className="contact-text">Swing by to have a coffee  <i class="fa-solid fa-mug-hot"></i> or contact me for some information</p>
                         </div>
+
 
                         <div class="row message">
                             <div class="col-md-12">
@@ -39,15 +51,15 @@ function Contact() {
                                             <div class="col-md-6">
                                                 <div className="form-group">
                                                     <input class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name." />
-                                                        <p class="help-block text-danger"></p>
+                                                    <p class="help-block text-danger"></p>
                                                 </div>
                                                 <div className="form-group">
                                                     <input class="form-control" id="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address." />
-                                                        <p class="help-block text-danger"></p>
+                                                    <p class="help-block text-danger"></p>
                                                 </div>
                                                 <div className="form-group">
                                                     <input class="form-control" id="phone" type="tel" placeholder="Your Phone" required="required" data-validation-required-message="Please enter your phone number." />
-                                                        <p class="help-block text-danger"></p>
+                                                    <p class="help-block text-danger"></p>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
@@ -71,16 +83,7 @@ function Contact() {
 
 
             </div>
-            <div id="content">
-                <div id="slider">
-                    <img src="" alt="Web Developer" data-url="#1" />
-                    <img src="" alt="Graphic Design" data-url="#2" />
-                    <img src="" alt="Creative Design" data-url="#3" />
-                    <img src="" alt="Web Design" data-url="#4" />
 
-
-                </div>
-            </div>
 
         </div>
     )

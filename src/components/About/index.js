@@ -4,7 +4,7 @@ import avatar from '../../assets/profile/Fabs.jpg'
 
 function About(props) {
     return (
-        <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+        <div class="w3-container w3-dark-grey w3-center w3-text-light-grey" id="about">
             <h4><b>About Me</b></h4>
             <img src={avatar} alt="Me" class="w3-image w3-padding-32" style={{ width: 600 }} />
             <div class="w3-content w3-justify" style={{ width: 600 }}>
