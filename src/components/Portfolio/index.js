@@ -14,24 +14,26 @@ function Portfolio() {
     return (
         <div className="images-project">
         
-<div><h1>Projects</h1></div>
-            <div className="w3-main w3-content row rollover-blocks_block" style={cardStyle}>
-            
+
+            <div className="w3-main w3-content row " style={cardStyle}>
+            <div className="projectTitle">
+            <h1>Projects</h1>
+            </div>
                 {
                     projects.map((projects) => (
 
-                        <div className="card col-lg-4 col-md-3 col-sm-6">
+                        <div className="card col-lg-4 col-md-6 col-sm-12">
                             <div>
                                 <div className="title-icon">
                                     <div >
-                                        <h1>{projects.title}</h1>
+                                        <h2>{projects.title}</h2>
                                     </div>
                                     <div>
                                         <a className="github" href={projects.github}><i class="icon-card fa-brands fa-github fa-2x"></i></a>
                                     </div>
                                 </div>
 
-                                <a href={projects.URL}><img className="project-img" src={projects.imgURL} style={{ width: "100%" }} onClick="onClick(this)" alt={projects.title} /></a>
+                                <a href={projects.URL}><img className="project-img text-center" src={projects.imgURL} style={{ width: "100%" }} onClick="onClick(this)" alt={projects.title} /></a>
                                 
                                 <spam className="description">{projects.description}</spam>
                             </div>

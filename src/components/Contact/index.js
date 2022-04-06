@@ -10,29 +10,7 @@ function Contact() {
                     <img className="avatar" src={avatar} alt="my-avatar" />
                 </div>
 
-                <div className="col-lg-12" id="preloader">
-                    <div id="loader">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div id="content">
-                    <div id="slider">
-                        <img src="" alt="Web Developer" data-url="#1" />
-                        <img src="" alt="Graphic Design" data-url="#2" />
-                        <img src="" alt="Creative Design" data-url="#3" />
-                        <img src="" alt="Web Design" data-url="#4" />
-
-
-                    </div>
-                </div>
+           
 
                 <div id="contact" class="section db">
                     <div class="container">
@@ -48,7 +26,7 @@ function Contact() {
                                     <div id="message"></div>
                                     <form id="contactForm" name="sentMessage" novalidate="novalidate">
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-6 col-sm-12">
                                                 <div className="form-group">
                                                     <input class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name." />
                                                     <p class="help-block text-danger"></p>

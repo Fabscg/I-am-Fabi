@@ -12,7 +12,7 @@ function Nav({ currentPage, handlePageChange }) {
                     <div className="w3-right w3-hide-small">
                         <a href="#home" className={currentPage === 'Home' ? 'w3-bar-item' :'w3-button'}
 
-                            onClick={() => handlePageChange('About')}>HOME</a>
+                            onClick={() => handlePageChange('Home')}>HOME</a>
                         <a href="#about" className={currentPage === 'About' ? 'w3-bar-item' : 'w3-button'}
 
                             onClick={() => handlePageChange('About')}><i className="fa fa-user"></i>ABOUT</a>
