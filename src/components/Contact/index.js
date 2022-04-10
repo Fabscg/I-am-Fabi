@@ -5,8 +5,8 @@ function Contact() {
     return (
 
         <div className="contact-form">
-            <div className="row contact-img">
-                <div className="col-lg-12">
+            <div className="row ">
+                <div className="col-lg-12 contact-img">
                     <img className="avatar" src={avatar} alt="my-avatar" />
                 </div>
 
@@ -25,7 +25,7 @@ function Contact() {
                                 <div class="contact_form">
                                     <div id="message"></div>
                                     <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                                        <div class="row">
+                                        <div class="row form-content">
                                             <div class="col-md-6 col-sm-12">
                                                 <div className="form-group">
                                                     <input class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name." />

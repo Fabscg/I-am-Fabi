@@ -23,14 +23,38 @@ html {
   min-height: 100%;
 }
 
+.navbar{
+  height: 100px;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.collapse{
+  justify-content: flex-end;
+}
+
+.navbar-item{
+  margin:0 20px 0 20px;
+}
+
+
+.navbar-item{
+  position:absolute;
+  float: inline-end;
+}
 .w3-top {
   margin-bottom: 0;
   border: none;
   background-color: black;
 }
 
-
-
+.w3-display-left{
+  margin-left: 50px;
+  margin-top: 50px;
+}
 
 
 .title {
@@ -52,15 +76,19 @@ html {
   opacity: 0.7;
   width: 100%;
   color: white;
-  text-shadow: 10px 10px black;
+  text-shadow:  10px 10px black;
   font-weight: bolder;
 }
 
 
-.w3-bar .w3-button,
+.w3-button,
 a {
-  padding: 20px 20px 20px;
+  padding: 0 10px 0 10px;
   color: white;
+}
+
+.nav-item:hover{
+color: grey;
 }
 
 .w3-container {
@@ -140,6 +168,7 @@ a {
   display: block;
   text-align: center;
   padding-top: 150px;
+  padding-bottom: 50px;
 }
 
 .avatar {
@@ -147,8 +176,12 @@ a {
 
 }
 
+
+
 .images-project {
   background-color: grey;
+  margin-top:0;
+  padding-top:0;
 }
 
 .form-group {
@@ -157,7 +190,7 @@ a {
 
 .w3-content {
   font-size: 17px;
-  margin: 20px auto 100px;
+  margin: 0 auto 100px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -250,4 +283,10 @@ footer {
   .copyright{
     font-size: 15px;
   }
+
+  .form-content{
+width:fit-content;
+  }
+
+  
 }
