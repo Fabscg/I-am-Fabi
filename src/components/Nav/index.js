@@ -6,38 +6,32 @@ function Nav({ currentPage, handlePageChange }) {
         <div>
             <div>
 
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#about"><i class="fa-solid fa-laptop-code"></i>I am Fabi</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a className="navbar-brand" href="#home"><i className="fa-solid fa-laptop-code"></i>I am Fabi</a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <a href="#home" className={currentPage === 'Home' ? 'nav-link' : 'w3-button'}
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <div className="navbar-nav">
+                            <a href="#home" className={currentPage === 'Home' ? 'nav-link' : 'nav-item'}
 
-                                    onClick={() => handlePageChange('Home')}><i class="fa-solid fa-igloo"></i>HOME</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="#about" className={currentPage === 'About' ? 'nav-link' : 'w3-button'}
+                                onClick={() => handlePageChange('Home')}><i class="fa-solid fa-igloo"></i>HOME</a>
 
-                                    onClick={() => handlePageChange('About')}><i className="fa fa-user"></i>ABOUT</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="#portfolio" className={currentPage === 'Portfolio' ? 'nav-link' : 'w3-button'}
+                            <a href="#about" className={currentPage === 'About' ? 'nav-link' : 'nav-item'}
 
-                                    onClick={() => handlePageChange('Portfolio')}><i className="fa fa-th"></i> PORTFOLIO</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="#contact" className={currentPage === 'Contact' ? 'nav-link' : 'w3-button'}
+                                onClick={() => handlePageChange('About')}><i className="fa fa-user"></i>ABOUT</a>
 
-                                    onClick={() => handlePageChange('Contact')}><i className="fa fa-envelope"></i> CONTACT</a>
-                            </li>
-                        </ul>
+                            <a href="#portfolio" className={currentPage === 'Portfolio' ? 'nav-link' : 'nav-item'}
 
+                                onClick={() => handlePageChange('Portfolio')}><i className="fa fa-th"></i> PORTFOLIO</a>
 
+                            <a href="#contact" className={currentPage === 'Contact' ? 'nav-link' : 'nav-item'}
+
+                                onClick={() => handlePageChange('Contact')}><i className="fa fa-envelope"></i> CONTACT</a>
+                        </div>
 
                     </div>
+
 
                 </nav>
             </div>

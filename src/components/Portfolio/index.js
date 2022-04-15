@@ -1,24 +1,26 @@
 import React from "react";
+
 import { projects } from "./projects";
 
 
 
 
-const cardStyle = {
-    width: "1600px",
-    marginTop: "83px"
-}
+// const cardStyle = {
+//     width: "1600px",
+//     marginTop: "83px"
+// }
 
 function Portfolio() {
     console.log(projects);
     return (
         <div className="images-project">
-        
 
-            <div className="w3-main w3-content row " style={cardStyle}>
-            <div className="projectTitle">
-            <h1>Projects</h1>
-            </div>
+
+           
+                <div className="projectTitle">
+                    <h1>Projects</h1>
+                </div>
+                <div className="w3-main w3-content row " >
                 {
                     projects.map((projects) => (
 
@@ -33,9 +35,10 @@ function Portfolio() {
                                     </div>
                                 </div>
 
-                                <a href={projects.URL}><img className="project-img text-center" src={projects.imgURL} style={{ width: "100%" }} onClick="onClick(this)" alt={projects.title} /></a>
-                                
-                                <spam className="description">{projects.description}</spam>
+                                <a href={projects.URL}><img className="project-img text-center" src={projects.imgURL} style={{ width: "100%" }} alt={projects.title} /></a>
+
+                                <spam className="description">{projects.description}
+                                </spam>
                             </div>
 
                         </div>
