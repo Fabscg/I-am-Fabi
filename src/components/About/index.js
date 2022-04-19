@@ -2,7 +2,7 @@ import React from "react";
 import avatar from '../../assets/profile/Fabs.jpg'
 
 import { SiHandlebarsdotjs, SiMysql, SiMongodb, SiApollographql } from 'react-icons/si'
-
+import { FaGithub } from "react-icons/fa"
 
 function About(props) {
     return (
@@ -23,10 +23,10 @@ function About(props) {
                     for an opportunity to specialize in this dynamic industry.
                 </p>
             </div>
-            <h1>Languages Mastered</h1>
+            <h1>Technologies</h1>
             <div className="language-mastered row">
                 <div>
-                    <i class="language fa-brands fa-github-square fa-2x"></i>
+                    <i className="language fa-2x"><FaGithub /></i>
                     <i class="language fa-brands fa-css3-alt fa-2x"></i>
                     <i class="language fa-brands fa-js fa-2x"></i>
                     <i class="language fa-brands fa-react fa-2x"></i>

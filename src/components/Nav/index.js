@@ -6,10 +6,10 @@ function Nav({ currentPage, handlePageChange }) {
 
         <header>
 
-            <nav className="navbar navbar-expand-lg ">
+            <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/"><i class="fa-solid fa-laptop-code"></i>I am Fabi</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <h1 className="navbar-brand" href="/"><i class="fa-solid fa-laptop-code"></i>I am Fabi</h1>
+                    <button className="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
