@@ -60,6 +60,16 @@ html {
   margin-top: 50px;
 }
 
+.language{
+  background-color: black;
+  padding: 20px;
+  border-radius: 50px;
+  margin:20px;
+}
+.language-mastered{
+  padding-bottom:50px;
+}
+
 .w3-jumbo{
   font-family: 'Square Peg', cursive;
   text-shadow:10px 10px black;
@@ -67,6 +77,7 @@ html {
 
 .nav-link, a{
   text-decoration: none;
+  color:white;
 }
 
 .home-slogan{
@@ -88,6 +99,10 @@ html {
 .w3-display-left {
   position: absolute;
   margin-top: 350px;
+}
+
+.about-me{
+  padding-top:30px;
 }
 
 .home-button{
@@ -119,7 +134,13 @@ color: grey;
 
 .w3-container {
   padding-top: 100px;
+  width:100%;
+  background-color: grey;
+  margin:0;
+  padding:0 20px 0 20px;
 }
+
+/* PORTFOLIO/PROJECTS */
 
 .icon-card {
   width: 100%;
@@ -182,6 +203,26 @@ color: grey;
   padding-bottom: 30px;
 }
 
+
+.images-project {
+  background-color: grey;
+  margin-top:0;
+  padding-top:0;
+}
+
+.form-group {
+  padding: 0 20px 0 20px;
+}
+
+.w3-content {
+  font-size: 17px;
+  margin: 0 auto 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* CONTACT FORM */
+
 .contact-form {
   background: rgb(81, 157, 174);
   background: linear-gradient(337deg, rgba(81, 157, 174, 1) 32%, rgba(21, 37, 48, 1) 65%);
@@ -200,25 +241,6 @@ color: grey;
 .avatar {
   height: 500px;
 
-}
-
-
-
-.images-project {
-  background-color: grey;
-  margin-top:0;
-  padding-top:0;
-}
-
-.form-group {
-  padding: 0 20px 0 20px;
-}
-
-.w3-content {
-  font-size: 17px;
-  margin: 0 auto 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .contact-text {
@@ -252,6 +274,7 @@ color: grey;
   border-radius: 0px;
 }
 
+/* FOOTER */
 
 footer {
   position: fixed;
@@ -301,16 +324,24 @@ footer {
     padding:20px 20px;
   }
   footer{
-    padding:30px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+  }
+
+  .w3-content{
+    width:100%;
   }
 }
 
 @media screen and (max-width:570px) {
-
+ 
   footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top:100px;
   }
 
   .icons-bottom {

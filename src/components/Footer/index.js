@@ -21,6 +21,7 @@ function Footer() {
                 <p className="copyight">Copyright by <i className="icon-terminal fa-solid fa-terminal"></i> Fabiola C. Gamboa {currentYear}</p>
 
             </div>
+           
         </footer>
 
 
