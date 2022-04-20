@@ -14,7 +14,7 @@ function Nav({ currentPage, handlePageChange }) {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a href="#home" className={currentPage === 'Home' ? 'nav-link' : 'nav-item'}
+                            <a href="#home" className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
 
                                 onClick={() => handlePageChange('Home')}><i className="fa-solid fa-igloo"></i>HOME</a>
                             <a
