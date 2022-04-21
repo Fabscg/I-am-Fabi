@@ -1,12 +1,12 @@
 import React from "react";
 import avatar from '../../assets/profile/Fabs.jpg'
 
-import { SiHandlebarsdotjs, SiMysql, SiMongodb, SiApollographql } from 'react-icons/si'
+import { SiHandlebarsdotjs, SiMysql, SiMongodb, SiApollographql, SiHtml5 } from 'react-icons/si'
 import { FaGithub } from "react-icons/fa"
 
 function About(props) {
     return (
-        <div class="w3-container w3-dark-grey w3-center" id="about">
+        <div class="w3-container w3-grey w3-center" id="about">
             <h4 className="about-me"><b>About Me</b></h4>
             <img src={avatar} alt="MySelf" class="w3-image w3-padding-32" style={{ width: "600px" }} />
             <div class="w3-content">
@@ -25,12 +25,13 @@ function About(props) {
             </div>
             <h1>Technologies</h1>
             <div className="language-mastered row">
+
                 <div>
                     <i className="language fa-2x"><FaGithub /></i>
                     <i class="language fa-brands fa-css3-alt fa-2x"></i>
                     <i class="language fa-brands fa-js fa-2x"></i>
                     <i class="language fa-brands fa-react fa-2x"></i>
-                    <i class="language fa-solid fa-database fa-2x"></i>
+                    <i class="language fa-2x"><SiHtml5 /></i>
                 </div>
                 <div>
                     <i class="language fa-brands fa-node fa-2x"></i>
@@ -39,6 +40,7 @@ function About(props) {
                     <i class="language fa-brands fa-gitlab fa-2x"></i>
                 </div>
                 <div>
+                    <i class="language fa-solid fa-database fa-2x"></i>
                     <i className="language fa-2x"><SiMysql /></i>
                     <i className="language fa-2x"><SiMongodb /></i>
                     <i className="language fa-2x"><SiApollographql /></i>

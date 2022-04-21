@@ -4,12 +4,6 @@ import { projects } from "./projects";
 
 
 
-
-// const cardStyle = {
-//     width: "1600px",
-//     marginTop: "83px"
-// }
-
 function Portfolio() {
     console.log(projects);
     return (
