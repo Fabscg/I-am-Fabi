@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("Home");
 
   function RenderPage({ currentPage }) {
 
@@ -32,7 +32,7 @@ function App() {
       return <Contact />;
     }
   
-    return currentPage;
+    return null;
   }
 
   //Method to check value of 'currentPage => return value of currentPage, corresponding to compent to render 

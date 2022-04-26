@@ -85,6 +85,7 @@ html {
   color: gray;
 }
 
+
 .home-slogan {
   display: block;
   text-align: center;
@@ -207,14 +208,13 @@ a {
   border: none;
   background-color: rgb(179, 179, 179);;
   padding-bottom: 30px;
-  padding-left: 50px;
 }
 
 
 .images-project {
   background-color: rgb(179, 179, 179);
   margin-top: 0;
-  padding-top: 0;
+ padding:0 50px 50px 50px;
 }
 
 .form-group {
@@ -385,16 +385,25 @@ footer {
   .w3-content {
     font-size: 17px;
     margin: 0 auto 50px;
-    padding-bottom: 0;
+    padding-bottom: 50px;
+    margin-bottom:0;
   }
 
+
+
+
+  .language-mastered {
+    padding-bottom: 120px;
+}
+
   footer {
-    position:relative;
+    position:fixed;
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: black;
   }
+
 
   .icons-bottom {
     padding-bottom: 10px;
