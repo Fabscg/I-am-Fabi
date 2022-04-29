@@ -10,11 +10,11 @@ function Portfolio() {
         <div className="images-project">
 
 
-           
-                <div className="projectTitle">
-                    <h1>Projects</h1>
-                </div>
-                <div className="w3-main w3-content row " >
+
+            <div className="projectTitle">
+                <h1>Projects</h1>
+            </div>
+            <div className="w3-main w3-content row " >
                 {
                     projects.map((projects) => (
 
