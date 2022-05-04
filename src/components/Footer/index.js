@@ -13,7 +13,7 @@ function Footer() {
                 <a className="w3-button icon-button" href="https://www.linkedin.com/in/fabicastaneda/"><i
                     class="icon fab fa-linkedin fa-2x"></i></a>
                 <a className="w3-button icon-button" href="tel:647-888-4713"><i class="icon fa-solid fa-phone fa-2x"></i></a>
-                <a className="w3-button icon-button" href="https://docs.google.com/document/d/15iV5DR8WVlWMFaJuW8_JXfBDM3Aeu9RLIFyg9mQidtY/edit?usp=sharing"><i
+                <a className="w3-button icon-button" href="https://drive.google.com/file/d/1CEihL8MI9RlRCzoJQ2P2KfHCYyMj9cAP/view?usp=sharing"><i
                     class="icon fa-solid fa-file-pdf fa-2x"></i></a>
             </div>
 
