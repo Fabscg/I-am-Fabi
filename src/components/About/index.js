@@ -1,15 +1,16 @@
 import React from "react";
-import avatar from '../../assets/profile/Fabs.jpg'
 
 import { SiHandlebarsdotjs, SiMysql, SiMongodb, SiApollographql, SiHtml5 } from 'react-icons/si'
 import { FaGithub } from "react-icons/fa"
 
 function About(props) {
     return (
-        <div class="w3-container w3-grey w3-center" id="about">
-            <h4 className="about-me"><b>About Me</b></h4>
-            <img src={avatar} alt="MySelf" class="w3-image w3-padding-32" style={{ width: "600px" }} />
-            <div class="w3-content">
+        <div className="w3-container  w3-center" id="about">
+            <div className="about-me">
+                <h2 className="sub-title"><b>About Me</b></h2>
+            </div>
+
+            <div className="w3-content">
                 <h4>I am Fabi</h4>
                 <p>
                     People find me to be an upbeat self-motivated team player with excellent
@@ -23,24 +24,24 @@ function About(props) {
                     for an opportunity to specialize in this dynamic industry.
                 </p>
             </div>
-            <h1>Technologies</h1>
+            <h1 className="technologies">Technologies</h1>
             <div className="language-mastered row">
 
                 <div>
                     <i className="language fa-2x"><FaGithub /></i>
-                    <i class="language fa-brands fa-css3-alt fa-2x"></i>
-                    <i class="language fa-brands fa-js fa-2x"></i>
-                    <i class="language fa-brands fa-react fa-2x"></i>
-                    <i class="language fa-2x"><SiHtml5 /></i>
+                    <i className="language fa-brands fa-css3-alt fa-2x"></i>
+                    <i className="language fa-brands fa-js fa-2x"></i>
+                    <i className="language fa-brands fa-react fa-2x"></i>
+                    <i className="language fa-2x"><SiHtml5 /></i>
                 </div>
                 <div>
-                    <i class="language fa-brands fa-node fa-2x"></i>
-                    <i class="language fa-brands fa-bootstrap fa-2x"></i>
+                    <i className="language fa-brands fa-node fa-2x"></i>
+                    <i className="language fa-brands fa-bootstrap fa-2x"></i>
                     <i className="language fa-2x"><SiHandlebarsdotjs /></i>
-                    <i class="language fa-brands fa-gitlab fa-2x"></i>
+                    <i className="language fa-brands fa-gitlab fa-2x"></i>
                 </div>
                 <div>
-                    <i class="language fa-solid fa-database fa-2x"></i>
+                    <i className="language fa-solid fa-database fa-2x"></i>
                     <i className="language fa-2x"><SiMysql /></i>
                     <i className="language fa-2x"><SiMongodb /></i>
                     <i className="language fa-2x"><SiApollographql /></i>

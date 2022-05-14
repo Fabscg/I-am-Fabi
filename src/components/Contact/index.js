@@ -20,6 +20,7 @@ const Contact = () => {
     return (
 
         <div className="contact-form">
+        <h2>Contact</h2>
             <div className="row ">
                 <div className="col-lg-12 contact-img">
                     <img className="avatar" src={avatar} alt="my-avatar" />
@@ -27,10 +28,10 @@ const Contact = () => {
 
 
 
-                <div id="contact" class="section db">
+                <div id="contact" className="section db">
                     <div className="container">
                         <div className="section-title text-center">
-                            <h3>Contact</h3>
+                            <h3>Contact Me</h3>
                             <p className="contact-text">Swing by to have a coffee  <i className="fa-solid fa-mug-hot"></i> or contact me for some information</p>
                         </div>
 

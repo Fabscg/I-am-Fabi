@@ -1,0 +1,28 @@
+{
+    "short_name": "Massage",
+    "name": "Healing Hands",
+    "icons": [
+      // {
+      //   "src": "/public/favicon.ico",
+      //   "sizes": "64x64 32x32 24x24 16x16",
+      //   "type": "image/x-icon"
+      // },
+      // {
+      //   "src": "/public/favicon.ico",
+      //   "type": "image/png",
+      //   "sizes": "192x192"
+      // },
+      // {
+      //   "src": "/public/favicon.ico",
+      //   "type": "image/png",
+      //   "sizes": "512x512"
+      // }
+    ],
+    "start_url": "./index.html",
+    "orientation":"Portrait",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#000000",
+    "description":"A site where blind people are massage therapist, also sell of massage products"
+  }
+  

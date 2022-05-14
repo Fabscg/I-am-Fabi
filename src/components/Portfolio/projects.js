@@ -2,7 +2,7 @@ import bikeHaven from '../../assets/projects/bike-haven.png'
 import drumKit from '../../assets/projects/drum-kit.png'
 import passGenerator from '../../assets/projects/passGenerator.png'
 import techBlog from '../../assets/projects/tech-blog-site.png'
-import runBuddy from '../../assets/projects/hero-image.jpg'
+import runBuddy from '../../assets/projects/run-buddy.png'
 import artisLyrics from '../../assets/projects/artist-and-lyrics-project.png'
 import missionPossible from '../../assets/projects/mission-possible.png'
 

@@ -1,23 +1,45 @@
 import React from "react";
 
+// const text = document.querySelector(".slogan")
+// const strText = text.textContent;
+// const splitText = strText.split("");
+// text.textContent = "";
+
+// for(let i = 0;i < splitText.length; i++){
+// text.innerHTML += "<span>" + splitText[i] + "<span>"
+// }
+// let char = 0;
+// let timer = setInterval(onTick, 50)
+
+// function onTick(){
+//     const span = text.querySelectorAll("span")[char];
+//     span.classList.add("fade");
+//     char++
+//     if(char === splitText.length){
+//         complete();
+//         return;
+//     }
+//     console.log(onTick());
+// }
+// function complete(){
+//     clearInterval(timer)
+// }
 
 
+const Home = () => {
 
 
-
-function Home() {
 
     return (
 
-        <header className="w3-grayscale-min"
+        <header className=""
             id="home">
-            <div className="w3-display-center w3-text-white" style={{ padding: 48 }}>
-                <button className="home-button"><a href="#about" className="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-white">Web Developer</a></button>
-
+            <div className="webDeveloper">
+                <h2>Web Developer</h2>
             </div>
-            <div className="home-slogan">
-                <span className="w3-jumbo w3-hide-small">Start something that matters</span>
-                <span className="slogan w3-xlarge">All great projects start with a great idea</span>
+
+            <div id="msg" className="home-slogan">
+                <span className="slogan w3-xlarge" >All great projects start with a great idea</span>
             </div>
 
         </header>

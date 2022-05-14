@@ -1,20 +1,21 @@
 
-import React  from 'react'
+import React from 'react'
 
 function Nav({ currentPage, handlePageChange }) {
     return (
 
         <header>
 
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-black">
                 <div className="container-fluid">
-                    <h1 className="navbar-brand" href="/"><i class="fa-solid fa-laptop-code"></i>I am Fabi</h1>
-                    <button className="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <h1 className="navbar-brand" href="/"><i className="fa-solid fa-laptop-code"></i>I am Fabi</h1>
+
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a href="#home" className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div className="navbar-nav">
+                            <a href="#home" aria-current="page" className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
 
                                 onClick={() => handlePageChange('Home')}><i className="fa-solid fa-igloo"></i>HOME</a>
                             <a
