@@ -5,18 +5,18 @@ const Home = () => {
     const [placeholder, setPlaceholder] = React.useState('');
 
     const
-      string = 'All great projects start with a great idea',
-      index = React.useRef(0);
-  
+        string = 'All great projects start with a great idea',
+        index = React.useRef(0);
+
     React.useEffect(() => {
-      function tick() {
-        setPlaceholder(prev => prev + string[index.current]);
-        index.current++;
-      }
-      if (index.current < string.length) {
-        let addChar = setInterval(tick, 300);
-        return () => clearInterval(addChar);
-      }
+        function tick() {
+            setPlaceholder(prev => prev + string[index.current]);
+            index.current++;
+        }
+        if (index.current < string.length) {
+            let addChar = setInterval(tick, 100);
+            return () => clearInterval(addChar);
+        }
     }, [placeholder]);
 
 
