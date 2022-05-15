@@ -1,33 +1,23 @@
-import React from "react";
-
-// const text = document.querySelector(".slogan")
-// const strText = text.textContent;
-// const splitText = strText.split("");
-// text.textContent = "";
-
-// for(let i = 0;i < splitText.length; i++){
-// text.innerHTML += "<span>" + splitText[i] + "<span>"
-// }
-// let char = 0;
-// let timer = setInterval(onTick, 50)
-
-// function onTick(){
-//     const span = text.querySelectorAll("span")[char];
-//     span.classList.add("fade");
-//     char++
-//     if(char === splitText.length){
-//         complete();
-//         return;
-//     }
-//     console.log(onTick());
-// }
-// function complete(){
-//     clearInterval(timer)
-// }
+import React, { useState } from "react";
 
 
 const Home = () => {
+    const [placeholder, setPlaceholder] = React.useState('');
 
+    const
+      string = 'All great projects start with a great idea',
+      index = React.useRef(0);
+  
+    React.useEffect(() => {
+      function tick() {
+        setPlaceholder(prev => prev + string[index.current]);
+        index.current++;
+      }
+      if (index.current < string.length) {
+        let addChar = setInterval(tick, 300);
+        return () => clearInterval(addChar);
+      }
+    }, [placeholder]);
 
 
     return (
@@ -39,7 +29,7 @@ const Home = () => {
             </div>
 
             <div id="msg" className="home-slogan">
-                <span className="slogan w3-xlarge" >All great projects start with a great idea</span>
+                <span className="slogan w3-xlarge" >{placeholder}</span>
             </div>
 
         </header>

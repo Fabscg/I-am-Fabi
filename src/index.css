@@ -85,7 +85,7 @@ html {
   color: white;
   text-shadow: 10px 10px black;
   font-weight: bolder;
-  margin-top: 170px;
+  margin-top: 50px;
   position: absolute;
   text-align: center;
 }
@@ -195,7 +195,6 @@ h2 {
 
 .row>* {
   flex-shrink: 0;
-  width: 100%;
   max-width: 100%;
   margin-top: var(--bs-gutter-y);
 }
@@ -282,7 +281,6 @@ a {
 
 .form-content{
   display:flex;
-
 }
 
 .contact-form {
@@ -476,7 +474,8 @@ footer {
   }
 
   .slogan{
-    visibility:hidden;
+    display:block;
+    margin-top:0;
   }
   .text-center {
    width:100%;
@@ -489,7 +488,7 @@ footer {
 
 
   .language-mastered {
-    padding-bottom: 150px;
+    padding-bottom: 200px;
   }
 
   footer {
