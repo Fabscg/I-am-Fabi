@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa"
 function About(props) {
     return (
         <div className="w3-container  w3-center" id="about">
-            <div className="about-me">
+            <div className="about-me text-center">
                 <h2 className="sub-title"><b>About Me</b></h2>
             </div>
 

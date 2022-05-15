@@ -297,11 +297,11 @@ a {
   padding: 0 20px 0 20px;
 }
 
-.text-center {
+/* .text-center {
   padding-bottom: 30px;
   font-size: larger;
   margin: 0;
-}
+} */
 
 .w3-content {
   font-size: 17px;
@@ -471,20 +471,25 @@ footer {
 
   .w3-content {
     font-size: 17px;
-    margin: 0 auto 50px;
-    padding-bottom: 50px;
-    margin-bottom: 0;
+    padding-bottom: 150px;
+    margin-bottom: 100px;
   }
 
   .slogan{
     visibility:hidden;
   }
+  .text-center {
+   width:100%;
+  }
 
-
+  h2{
+    text-align: center;
+    width:100%;
+  }
 
 
   .language-mastered {
-    padding-bottom: 120px;
+    padding-bottom: 150px;
   }
 
   footer {
@@ -506,6 +511,11 @@ footer {
 
   .copyright {
     font-size: 15px;
+  }
+
+
+  .contact-form{
+    padding-bottom:50px;
   }
 
   .form-content {

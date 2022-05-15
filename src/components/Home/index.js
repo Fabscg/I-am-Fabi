@@ -34,7 +34,7 @@ const Home = () => {
 
         <header className=""
             id="home">
-            <div className="webDeveloper">
+            <div className="webDeveloper text-center">
                 <h2>Web Developer</h2>
             </div>
 

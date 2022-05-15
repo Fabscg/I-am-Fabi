@@ -8,7 +8,10 @@ function Portfolio() {
     console.log(projects);
     return (
         <div>
-            <h2 className="projectTitle">Projects</h2>
+            <div className="text-center">
+                <h2 className="projectTitle">Projects</h2>
+            </div>
+
             <div className="images-project">
                 <div className="w3-main w3-content card-body row" >
                     {
