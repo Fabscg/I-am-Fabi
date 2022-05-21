@@ -7,20 +7,21 @@ const Contact = () => {
 
     function submitEmail(e) {
         e.preventDefault()
-       
+
 
         emailjs.sendForm("service_cigixvg", "template_im50s7d", e.target, 'WhVw6ilDpOLZnUdTU')
             .then((result) => {
-                
+
             }).catch(err => console.log(err))
-            e.target.reset()
+        e.target.reset()
     }
+
 
 
     return (
 
         <div className="contact-form">
-        <h2>Contact</h2>
+            <h2>Contact</h2>
             <div className="row ">
                 <div className="col-lg-12 contact-img">
                     <img className="avatar" src={avatar} alt="my-avatar" />
@@ -65,7 +66,7 @@ const Contact = () => {
                                             <div className="clearfix"></div>
                                             <div className="col-lg-12 text-center">
                                                 <div id="success"></div>
-                                                <button id="sendMessageButton" className="btn btn-outline-light btn-lg" onClick="" type="submit"><span className="btn-text">Send Message</span></button>
+                                                <button id="sendMessageButton" className="btn btn-outline-light btn-lg" onClick={() => this.handleClick()} type="submit"><span className="btn-text">Send Message</span></button>
                                             </div>
                                         </div>
                                     </form>

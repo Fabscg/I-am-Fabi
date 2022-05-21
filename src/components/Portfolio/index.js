@@ -5,7 +5,7 @@ import { projects } from "./projects";
 
 
 function Portfolio() {
-    console.log(projects);
+    
     return (
         <div>
             <div className="text-center">
@@ -17,7 +17,7 @@ function Portfolio() {
                     {
                         projects.map((projects) => (
 
-                            <div className="card col-lg-4 col-md-6 col-sm-12">
+                            <div className="card col-lg-4 col-md-6 col-sm-12" key={projects.id}>
                                 <div>
                                     <div className="title-icon">
                                         <h3 className="card-title">{projects.title}</h3>
@@ -28,8 +28,8 @@ function Portfolio() {
                                     </div>
                                     <a href={projects.URL}><img className="project-img text-center" src={projects.imgURL} style={{ width: "100%" }} alt={projects.title} /></a>
 
-                                    <spam className="card-text description">{projects.description}
-                                    </spam>
+                                    <h3 className="card-text description">{projects.description}
+                                    </h3>
                                 </div>
 
                             </div>
