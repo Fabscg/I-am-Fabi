@@ -43,7 +43,7 @@ function App() {
      
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <RenderPage currentPage={currentPage} />
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }
