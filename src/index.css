@@ -154,6 +154,10 @@ html {
   color: white;
 }
 
+.about-me p{
+  background-color: black;
+}
+
 .sub-title{
   font-weight: 200;
 }
