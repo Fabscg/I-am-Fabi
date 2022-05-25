@@ -5,10 +5,10 @@ const express = require("express")
 const server = express()
     .use((req, res) => res.sendFile(INDEX, { root: __dirname }))
     .listen(PORT, () => console.log(`Listening on ${PORT}`));
-const { Server } = require('ws');
+const { Server } = require('wss');
 
 const wss = new Server({ server });
-wss.on('connection', (ws) => {
+wss.on('connection', (wss) => {
     console.log('Client connected');
-    ws.on('close', () => console.log('Client disconnected'));
+    wss.on('close', () => console.log('Client disconnected'));
 });
