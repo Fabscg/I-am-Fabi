@@ -261,7 +261,8 @@ a {
 .github {
   color: white;
 }
-.description{
+
+.description {
   font-size: 20px;
 }
 
@@ -274,6 +275,7 @@ a {
 
 
 /* CONTACT FORM */
+
 
 .form-content {
   display: flex;
@@ -348,6 +350,8 @@ a {
   width: 100%;
   border-radius: 0px;
 }
+
+
 
 /* FOOTER */
 
@@ -468,6 +472,14 @@ footer {
 }
 
 @media screen and (max-width:570px) {
+
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
 
   .w3-content {
     font-size: 17px;
