@@ -140,11 +140,11 @@ html {
   color: white;
 }
 
-.about-me p{
+.about-me p {
   background-color: black;
 }
 
-.sub-title{
+.sub-title {
   font-weight: 200;
 }
 
@@ -191,7 +191,7 @@ h2 {
 
 .images-project {
   text-align: center;
-  width:auto;
+  width: auto;
 }
 
 .icon-card {
@@ -218,10 +218,10 @@ a {
 
 .card {
   background-color: black;
-  padding:0;
+  padding: 0;
   /* margin: 0 10px 30px 10px; */
   border-radius: 50px;
-  width:300px;
+  width: 300px;
   margin-bottom: 30px;
   border-color: white 3px solid;
 }
@@ -229,9 +229,10 @@ a {
 .card-body {
   justify-content: space-around;
   text-align: center;
-  margin:20px 50px 20px 50px;
+  margin: 20px 50px 20px 50px;
   z-index: 2;
 }
+
 .title-icon {
   color: rgb(222, 219, 219);
   padding: 20px 10px 20px 10px;
@@ -245,9 +246,11 @@ a {
   align-items: center;
 
 }
-.card-text{
-  padding:15px;
+
+.card-text {
+  padding: 15px;
 }
+
 
 .github:hover {
   color: grey;
@@ -257,6 +260,9 @@ a {
 .title-icon,
 .github {
   color: white;
+}
+.description{
+  font-size: 20px;
 }
 
 
@@ -269,8 +275,8 @@ a {
 
 /* CONTACT FORM */
 
-.form-content{
-  display:flex;
+.form-content {
+  display: flex;
 }
 
 .contact-form {
@@ -357,7 +363,7 @@ footer {
 
 .copyright {
   padding-bottom: 0;
-  text-shadow:black 5px 5px;
+  text-shadow: black 5px 5px;
 }
 
 
@@ -412,13 +418,14 @@ footer {
     align-items: flex-end;
     border-radius: 50px;
   }
-  .nav-link{
+
+  .nav-link {
     background-color: black;
     text-align-last: start;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     z-index: 2;
   }
- 
+
   .navbar-brand {
     margin: 20px auto;
   }
@@ -434,7 +441,7 @@ footer {
     text-align: center;
   }
 
-  .description{
+  .description {
     font-size: medium;
   }
 
@@ -468,26 +475,27 @@ footer {
     margin-bottom: 100px;
   }
 
-  .slogan{
-    display:block;
-    margin-top:0;
-  }
-  .text-center {
-   width:100%;
+  .slogan {
+    display: block;
+    margin-top: 0;
   }
 
-  .description{
+  .text-center {
+    width: 100%;
+  }
+
+  .description {
     font-size: small;
   }
 
-  h2{
+  h2 {
     text-align: center;
-    width:100%;
+    width: 100%;
   }
 
 
   .language-mastered {
-    margin-bottom:150px;
+    margin-bottom: 150px;
   }
 
   footer {
@@ -512,8 +520,8 @@ footer {
   }
 
 
-  .contact-form{
-    padding-bottom:50px;
+  .contact-form {
+    padding-bottom: 50px;
   }
 
   .form-content {

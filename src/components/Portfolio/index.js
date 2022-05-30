@@ -5,7 +5,7 @@ import { projects } from "./projects";
 
 
 function Portfolio() {
-    
+
     return (
         <div>
             <div className="text-center">
