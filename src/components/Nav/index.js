@@ -17,17 +17,17 @@ function Nav({ currentPage, handlePageChange }) {
                         <div className="navbar-nav">
                             <a href="#home" aria-current="page" className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
 
-                                onClick={() => handlePageChange('Home')}><i className="fa-solid fa-igloo"></i>HOME</a>
+                                onClick={() => handlePageChange('Home')}><i className="top-icon fa-solid fa-igloo"></i>HOME</a>
                             <a
                                 href="#about" className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
 
-                                onClick={() => handlePageChange('About')}><i className="fa fa-user"></i>ABOUT ME</a>
+                                onClick={() => handlePageChange('About')}><i className="top-icon fa fa-user"></i>ABOUT ME</a>
                             <a href="#portfolio" className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
 
-                                onClick={() => handlePageChange('Portfolio')}><i className="fa fa-th"></i>PORTFOLIO</a>
+                                onClick={() => handlePageChange('Portfolio')}><i className="top-icon fa fa-th"></i>PORTFOLIO</a>
                             <a href="#contact" className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
 
-                                onClick={() => handlePageChange('Contact')}><i className="fa fa-envelope"></i>CONTACT</a>
+                                onClick={() => handlePageChange('Contact')}><i className="top-icon fa fa-envelope"></i>CONTACT</a>
 
 
                         </div>
