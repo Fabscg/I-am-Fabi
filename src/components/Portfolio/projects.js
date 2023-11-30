@@ -31,7 +31,7 @@ export const projects = [
         title: "Lanterna|Restaurant and Marketplace",
         URL: "https://lanterna-marketplace-ee30b.web.app",
         github: "https://github.com/Fabscg/lanterna-marketplace",
-        description: "Prodly to say that this is my second website as a self employee, very simple but that was the request from the owners, no email, or social media information but their phone number just to order on line. it is about an Italian restaurant that offers pasta, pizzas, salads, wine, and also is a mini marketplace with italian produce. The site contains the most important things that are the Menu, Contact information and Location. I only used HTML, CSS, Bootstrap and JavaScript."
+        description: "Proudly to say that this is my second website as a self employee, very simple but that was the request from the owners, no email, or social media information but their phone number just to order on line. it is about an Italian restaurant that offers pasta, pizzas, salads, wine, and also is a mini marketplace with italian produce. The site contains the most important things that are the Menu, Contact information and Location. I only used HTML, CSS, Bootstrap and JavaScript."
     },
     {
         id: 4,
