@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3413c9bf.css",
+    "main.js": "/static/js/main.47ce3635.js",
+    "static/js/787.ab428c94.chunk.js": "/static/js/787.ab428c94.chunk.js",
+    "static/media/Lanterna-restaurant.png": "/static/media/Lanterna-restaurant.a603de5270ca97ac7664.png",
+    "static/media/bike-haven.png": "/static/media/bike-haven.9d30a1215542192f0a0d.png",
+    "static/media/run-buddy.png": "/static/media/run-buddy.d4d1f4f88c4be5bc6a00.png",
+    "static/media/mission-possible.png": "/static/media/mission-possible.9daa0ce23a484552985e.png",
+    "static/media/artist-and-lyrics-project.png": "/static/media/artist-and-lyrics-project.2e5e90b9f0325a93e361.png",
+    "static/media/drum-kit.png": "/static/media/drum-kit.0599c2140b48ba2d9eed.png",
+    "static/media/tech-blog-site.png": "/static/media/tech-blog-site.9c629c5030b7b884f14b.png",
+    "static/media/avatar.jpg": "/static/media/avatar.3919425c46afac2eedfb.jpg",
+    "static/media/laptop.jpg": "/static/media/laptop.c9a6c8eff2040e2ae4b0.jpg",
+    "static/media/Fabs.jpg": "/static/media/Fabs.ae1a88eed54a4245788e.jpg",
+    "static/media/passGenerator.png": "/static/media/passGenerator.c2f1892d08bc8cf61ff6.png",
+    "index.html": "/index.html",
+    "main.3413c9bf.css.map": "/static/css/main.3413c9bf.css.map",
+    "main.47ce3635.js.map": "/static/js/main.47ce3635.js.map",
+    "787.ab428c94.chunk.js.map": "/static/js/787.ab428c94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3413c9bf.css",
+    "static/js/main.47ce3635.js"
+  ]
+}
